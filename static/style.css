@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(10, 14, 14);
+    color: rgb(248, 246, 246);
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif
+  }
+
+  header {
+    background-color:  rgb(10, 14, 14);
+    padding: 15pt;
+    /* width: 100%; */
+    }
+
+  .header1 {
+    color: azure;
+    font-size: large;
+    display: inline-block;
+  }
+
+  footer {
+    color: azure;
+    background-color: rgb(20, 20, 20);
+    padding: 15pt;
+    box-shadow: 0 50vh 0 50vh #000;
+  }
+
+  .tech_items {
+    /* display: inline-block; */
+    padding: 10pt;
+    vertical-align:baseline;
+  }
+
+  .images {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5pt;
+    vertical-align:baseline;
+  }
+
+  .images2 {
+    /* max-width: 100px; */
+    max-height: 50px;
+    padding-left: 14pt;  
+    padding-right: 14pt;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
+    vertical-align:baseline;
+  }
+
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .botton_items {
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+    .web_apps {
+      width: auto;
+      margin: 1%;
+      margin-bottom: 5%;
+      text-align: left;
+      padding: 1%;
+      box-shadow: .1pt .1pt 1pt .1pt;
+    }
+
+    /* .web_apps:hover {
+      background-color: aliceblue;
+    } */
+
+  .tech {
+    display: inline-block;
+    font-size: x-large;
+  }
+
+  @media screen and (min-width: 900px) {
+    .bio {
+      padding-right: 10%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .header_image {
+      width: 250px;
+      
+    }
+  }
+
+  .header_image {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .header_image:hover {
+    animation: shake .4s;
+    animation-iteration-count: 55;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .a_webapp {
+    color:rgb(141, 179, 230);
+  }
+
+  a:hover {
+    color: brown;
+  }
+
+  .what_im_using {
+    background-color:whitesmoke; 
+    margin-top: 0%; 
+    
+    padding: 1%; 
+    color: black;
+  }
+  hr {
+    border-style: solid;
+    border-width: 5pt;
+    width: 90%; 
+  }
+
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }

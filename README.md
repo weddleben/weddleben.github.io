@@ -1,2 +1,3 @@
-# portfolio
- general portfolio site
+# personal website
+
+ [benjaminweddle.com](https://benjaminweddle.com/)
